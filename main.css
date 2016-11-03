@@ -1,0 +1,139 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+.headerbox {
+	width: 100%;
+	height: 100px;
+	background-color: gray;
+	padding: 0;
+	margin-top: 0px;
+	position: fixed;
+}
+
+nav, .logo {
+	font-family: 'Slabo 27px', serif;
+	font-size: 40px;
+	position: absolute;
+
+}
+
+.logo {
+	top: 20px;
+	left: 20px;
+}
+
+nav {
+	top: 20px;
+	right: 20px;
+}
+
+.navbuttons {
+	list-style-type: none;
+}
+
+.navbuttonsflat {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.nounderline {
+	text-decoration: none !important;
+}
+
+
+/*I'd like to find out why this doesn't work*/
+/*.searchlist {
+	margin-left: 200px;
+}*/
+
+.searchbar {
+	position: relative;
+	top: 200px;
+	left: 200px;
+	width: 430px;
+}
+
+.inputbox, .magnifying-glass, .searchresultsbox {
+	border-radius: 5px;
+}
+
+.inputbox {
+	border: 1px lightgray solid;
+	width: 400px;
+}
+
+.magnifying-glass {
+	float: right;
+	height: 100%;
+	width: 20px;
+	border: 1px lightgrey solid;
+	
+}
+
+.searchresultsbox {
+	
+	margin-top: 275px;
+	margin-left: 200px;
+	width: 300px;
+	height: 40px;
+	margin-bottom: 50px;
+	
+}
+
+.prev, .next {
+	display: inline-block;
+	width: 25%;
+	height: 40px;
+	border: 1px lightgray solid;
+	margin-right: -5px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.resultsnumber {
+	display: inline-block;
+	height: 40px;
+	width: 50%;
+	border: 1px lightgray solid;
+	margin-right: -5px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	text-decoration:none;
+
+}
+
+/*most copied from the answer section cuz I ran out of time*/
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+  margin-left: 200px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/*all the way to here*/
